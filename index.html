@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Thali</title>
+<meta name="description" content="Free, private calorie, macro, water and workout tracker built for Indian food.">
+<meta name="theme-color" content="#15803d">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Thali">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app"></main>
+<nav id="nav" aria-label="Main">
+  <button data-a="tab" data-tab="diary"><span>🍽️</span>Diary</button>
+  <button data-a="tab" data-tab="move"><span>🏃</span>Move</button>
+  <button data-a="tab" data-tab="progress"><span>📈</span>Progress</button>
+  <button data-a="tab" data-tab="me"><span>👤</span>Me</button>
+</nav>
+<div id="sheet" class="hidden"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="foods.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
